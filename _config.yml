@@ -1,13 +1,12 @@
 # Site settings
-title:        "block-Log"
-description:  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor"
+title:        "Terminal Times"
+description:  "An Open Comedy Publication"
 baseurl:      "" # the subpath of your site, e.g. /blog/
-url:          "http://yourdomain.com" # the base hostname & protocol for your site
+url:          "http://terminaltimes.com" # the base hostname & protocol for your site
 permalink:    /:year/:title
-github:       "yourusername"
-twitter:      "yourusername"
-email:        "mail@example.com"
-disqus-id:    "example" #leave blank if you dont want comments.
+email:        "evan.m.wall@gmail.com"
+disqus-id:    "" #leave blank if you dont want comments.
+headerimage: "/images/terminaltimes.jpg"
 
 # Build settings
 markdown:     kramdown

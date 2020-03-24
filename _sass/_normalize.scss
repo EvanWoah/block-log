@@ -133,9 +133,19 @@ dfn {
  */
 
 h1 {
-  font-size: 2em;
+  font-size: 3.0em;
   margin: 0.67em 0;
+  text-align: center;
+  margin-block-end: 0em;
 }
+
+h5 {
+  text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+
 
 /**
  * Address styling not present in IE 8/9.
