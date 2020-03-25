@@ -1,6 +1,5 @@
-
-# Site settings
-title:        "Terminal Times"
+---
+title: Terminal Times
 timezone: UTC
 collections:
   posts:
@@ -10,22 +9,16 @@ collections:
     title: Uploads
     output: true
 description: An Open Comedy Publication
-baseurl:      "" # the subpath of your site, e.g. /blog/
-url:          "http://terminaltimes.com" # the base hostname & protocol for your site
-permalink:    /:year/:title
-email:        "evan.m.wall@gmail.com"
-disqus-id:    "disqy" #leave blank if you dont want comments.
+baseurl: ''
+url: http://terminaltimes.com
+permalink: "/:year/:title"
+email: evan.m.wall@gmail.com
+disqus-id: disqy
 headerimage: "/images/terminaltimes.png"
-
-github_username:  EvanWoah
-
-
-# Build settings
-markdown:     kramdown
+github_username: EvanWoah
+markdown: kramdown
 sass:
-    style: :compressed
-
-#staticman
+  style: :compressed
 staticman:
-  api: "https://anasbasem.herokuapp.com/v2/entry/basemwahba/anas/master/comments"
-  path: "_data/comments/test-slug"
+  api: https://anasbasem.herokuapp.com/v2/entry/basemwahba/anas/master/comments
+  path: _data/comments/test-slug
