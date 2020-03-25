@@ -1,6 +1,15 @@
+
 # Site settings
 title:        "Terminal Times"
-description:  "An Open Comedy Publication"
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: An Open Comedy Publication
 baseurl:      "" # the subpath of your site, e.g. /blog/
 url:          "http://terminaltimes.com" # the base hostname & protocol for your site
 permalink:    /:year/:title
@@ -16,6 +25,7 @@ markdown:     kramdown
 sass:
     style: :compressed
 
+#staticman
 staticman:
   api: "https://anasbasem.herokuapp.com/v2/entry/basemwahba/anas/master/comments"
   path: "_data/comments/test-slug"

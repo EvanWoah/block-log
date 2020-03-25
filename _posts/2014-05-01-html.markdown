@@ -1,8 +1,10 @@
 ---
+title: HTML
+date: 2014-05-01 20:46:47 Z
+categories:
+- jekyll
+- update
 layout: post
-title:  "HTML"
-date:   2014-05-01 20:46:47
-categories: jekyll update
 ---
 
 <div class="entry-content">
